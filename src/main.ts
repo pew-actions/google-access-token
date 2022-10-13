@@ -1,5 +1,4 @@
 import * as core from '@actions/core'
-import * as crypto from 'crypto'
 import { google } from 'googleapis'
 
 async function run(): Promise<void> {

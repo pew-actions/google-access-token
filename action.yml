@@ -1,0 +1,16 @@
+name: 'Google service account access token'
+description: 'Obtains an access token for a google service account'
+inputs:
+  credentials:
+    description: "Google service account JSON credentials"
+    required: true
+  scope:
+    description: "Scope for the access token"
+    required: true
+outputs:
+  token:
+    description: "Google access token"
+
+runs:
+  using: node16
+  main: dist/index.js

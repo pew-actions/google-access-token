@@ -1,0 +1,18 @@
+{
+  "name": "google-access-token",
+  "version": "1.0,0",
+  "description": "Acquire an access token for a Google API service account",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "tsc && ncc build"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.22.3",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@types/sha1": "^1.1.3",
+    "googleapis": "^108.0.0"
+  }
+}
